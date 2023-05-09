@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="160dp"
+        android:layout_height="155dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/logo_unsrat__universitas_sam_ratulangi__png" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3F51B5"
+        android:text="Universitas Sam Ratulangi"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="12pt" />
+
+    <EditText
+        android:id="@+id/ednama"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="9pt"
+        android:hint="Nama Mahasiswa"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/edtugas"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="9pt"
+        android:hint="Nilai Tugas"
+        android:text="" />
+    <EditText
+        android:id="@+id/eduts"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="9pt"
+        android:hint="Nilai UTS"
+        android:text="" />
+    <EditText
+        android:id="@+id/eduas"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="9pt"
+        android:hint="Nilai UAS"
+        android:text="" />
+
+    <Button
+        android:id="@+id/bthitung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="H I T U N G"
+        android:onClick="hitung"
+        app:backgroundTint="#3F51B5"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="9pt"
+        android:layout_marginTop="5dp"
+        android:text="Nilai Akhir" />
+    <EditText
+        android:id="@+id/edakhir"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="9pt"
+        android:hint=""
+        android:text="" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="9pt"
+        android:layout_marginTop="5dp"
+        android:text="Nilai Huruf" />
+    <EditText
+        android:id="@+id/edhuruf"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="9pt"
+        android:hint=""
+        android:text="" />
+
+
+
+</LinearLayout>
